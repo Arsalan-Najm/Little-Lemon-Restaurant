@@ -1,7 +1,9 @@
+import React from 'react';
+
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-red-600 '>React Project</h1>
+    <div>
+      <h1>For tommorow test</h1>
     </div>
   );
 }
