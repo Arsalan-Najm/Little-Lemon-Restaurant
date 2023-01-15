@@ -7,11 +7,8 @@
 * After the node_modules have been installed run "npm start"
 
 #### _This project is built on ReactJS and React styled component_
-<div>
-<div style="display:none;">
+<p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" width="250"/>
-</div>
-<div>
 <img src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" width="250" />
-</div>
-</div>
+</p>
+
