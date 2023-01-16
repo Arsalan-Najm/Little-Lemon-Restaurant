@@ -43,3 +43,22 @@ export const MenuBox = styled.div`
     gap: 2rem;
   }
 `;
+export const LogoBox = styled.div`
+  position: relative;
+  width: 60px;
+  min-height: 60px;
+  @media screen and (min-width: 768px) {
+    .logo-box,
+    .form-nav .img-box {
+        width: 70px;
+        min-height: 100px;
+    }
+`;
+export const LogoImg = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;

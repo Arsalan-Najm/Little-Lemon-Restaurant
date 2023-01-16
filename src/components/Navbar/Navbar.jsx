@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { Nav, NavLink, NavIcon, MenuBox, List, Cart } from './NavbarElements';
+import {
+  Nav,
+  NavLink,
+  NavIcon,
+  MenuBox,
+  List,
+  Cart,
+  LogoBox,
+  LogoImg,
+} from './NavbarElements';
 import logo from '../../images/1.png';
 
 const Navbar = ({ toggle, cartItem }) => {
@@ -26,11 +35,11 @@ const Navbar = ({ toggle, cartItem }) => {
               }
         }
       >
-        <div className='logo-box'>
+        <LogoBox>
           <NavLink to='/'>
-            <img src={logo} alt='logo' />
+            <LogoImg src={logo} alt='logo' />
           </NavLink>
-        </div>
+        </LogoBox>
         <MenuBox>
           <NavIcon onClick={toggle}>
             <List />

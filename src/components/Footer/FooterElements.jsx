@@ -46,3 +46,17 @@ export const SocialIconLink = styled.a`
     color: #e31837;
   }
 `;
+export const FooterLogoBox = styled.div`
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 2rem;
+`;
+export const FooterLogo = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;

@@ -7,6 +7,8 @@ import {
   SocialMediaWrap,
   SocialIcons,
   SocialIconLink,
+  FooterLogo,
+  FooterLogoBox,
 } from './FooterElements';
 import logo from '../../images/4.png';
 const Footer = () => {
@@ -15,9 +17,9 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <div className='logo-footer'>
-              <img src={logo} alt='logo' />
-            </div>
+            <FooterLogoBox>
+              <FooterLogo src={logo} alt='logo' />
+            </FooterLogoBox>
             <SocialIcons>
               <SocialIconLink href='/' aria-label='Facebook'>
                 <FaFacebook />

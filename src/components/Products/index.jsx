@@ -11,7 +11,7 @@ import {
   ProductDesc,
   ProductPrice,
   ProductButton,
-} from './ProductsElements.js';
+} from './ProductsElements.jsx';
 
 const Products = ({ heading, data, cartItem, setCartItem, foodsRef, id }) => {
   return (
